@@ -139,7 +139,12 @@ p {
 
 .btn {
     	width: 25%;
+	font-size: 1.5em;
+	text-transform: uppercase;
 }
+
+
+
 
 /* *********************************
            Nav Bar
