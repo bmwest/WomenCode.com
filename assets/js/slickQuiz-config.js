@@ -21,8 +21,8 @@ var quizJSON = {
                 {"option": "5-10 years",     "correct": true},
                 {"option": "10+ years",      "correct": true}
             ],
-            "Awesome!": "<p><span>Awesome!</p>",
-            "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
+            "correct!": "<p><span>Awesome!</p>",
+            "incorrect": "<p><span>Awesome!</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
         },
         { // Question 2
             "q": "My prior experience (school or work), has provided me with the following level of technology skills:",
@@ -33,7 +33,7 @@ var quizJSON = {
                 {"option": "None",   "correct": true}
             ],
             "correct": "<p><span>Holy bananas!</span></p>",
-            "incorrect": "<p><span>Fail.</span> Sorry. You lose. It actually rains approximately 32 inches a year in Michigan.</p>" // no comma here
+            "incorrect": "<p><span>Holy bananas!</span></p>" // no comma here
         },
         { // Question 3
             "q": "In my job I’m most interested in ______.",
@@ -45,7 +45,7 @@ var quizJSON = {
                 {"option": "Getting the project done efficiently, and on time!",   "correct": true}
         ],
             "correct": "<p><span>Nice!</span></p>",
-            "incorrect": "<p><span>No.</span> You can't buy a car at the zoo or in a grocery store, try Ebay or a used car lot instead.</p>" // no comma here
+            "incorrect": "<p><span>Nice!</span></p>" // no comma here
         },
         { // Question 4
             "q": "If you know it, tell us your Myers Brigg. Myers Brigg is just one way of describing personality, but we think it’s a fun way! Don’t forget, your Myers Brigg can change over the course of your life based on experiences. Neuroplasticity! You can take the test at 16 personalities: https://www.16personalities.com/personality-types",
@@ -57,7 +57,7 @@ var quizJSON = {
                 {"option": "ENTJ, ENFJ, ISFJ, ESFJ",     "correct": true}
             ],
             "correct": "<p><span>Cool!</span></p>",
-            "incorrect": "<p><span>ERRRR!</span> What planet Earth are <em>you</em> living on?!?</p>" // no comma here
+            "incorrect": "<p><span>Cool!</span></p>" // no comma here
         },
         { // Question 5
             "q": "My ideal work environment is:",
@@ -67,7 +67,7 @@ var quizJSON = {
                 {"option": "Having the flexibility to work remotely or in a team",  "correct": true}
             ],
             "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "incorrect": "<p><span>Brilliant!</p>" // no comma here
         },
         { // Question 6
             "q": " I find loud work environments:",
@@ -77,7 +77,7 @@ var quizJSON = {
                 {"option": "It depends on what I am working on",  "correct": true}
             ],
             "correct": "<p><span>Awesome!</span></p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>"
+            "incorrect": "<p><span>Awesome!</p>"
         },
 		{ // Question 7
             "q": "I would prefer to work for:",
@@ -87,7 +87,7 @@ var quizJSON = {
                 {"option": "A non-profit or educational organization",  "correct": true}
             ],
             "correct": "<p><span>Alrighty!</span></p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>"
+            "incorrect": "<p><span>Alrighty!</span></p>"
 		},
         { // Question 8
             "q": "I like to learn new information and how to complete a task:",
@@ -97,7 +97,8 @@ var quizJSON = {
                 {"option": "By reading instructions and looking at graphics",  "correct": true}
             ],
             "correct": "<p><span>Nice!</span></p>",
-		"incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>"},
+		        "incorrect": "<p><span>Nice!</span></p>"
+          },
 		{ // Question 9
             "q": " I work best when my supervisor:",
             "a": [
@@ -106,7 +107,7 @@ var quizJSON = {
                 {"option": "Gives me full autonomy over a task",  "correct": true}
             ],
             "correct": "<p><span>Brilliant!</span></p>",
-		"incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>"},
+		        "incorrect": "<p><span>Brilliant!</span></p>"},
         { // Question 10
             "q": "MWhen I am given a new task or a problem to solve:",
             "a": [
@@ -115,7 +116,7 @@ var quizJSON = {
                 {"option": "I like to talk and rationalize my processes out loud to find a solution",  "correct": true}
             ],
             "correct": "<p><span>Wonderful!</span></p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "incorrect": "<p><span>Wonderful!</span></p>" // no comma here
         } //
     ]
 };
