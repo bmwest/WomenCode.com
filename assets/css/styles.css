@@ -172,5 +172,23 @@ p {
 	padding: 60px 0;
 }
 	
+.path-tile, .glossary-tile, .resource-tile {
+	text-align: center;
+	font-size: 2em;
+	font-family: 'Lora', serif;
+	font-weight: bold;
+	padding: 40px 10px;
+}
 
+.path-tile {
+	background: #eaebed;
+}
+
+.glossary-tile {
+	background: #dbdbdb;
+}
+
+.resource-tile {
+	background: #07b1c8;
+}
 
