@@ -178,6 +178,11 @@ p {
 	font-family: 'Lora', serif;
 	font-weight: bold;
 	padding: 40px 10px;
+	margin-bottom: 20px;
+}
+
+.path-tile a, .glossary-tile a, .resource-tile a {
+	color: #fff;
 }
 
 .path-tile {
