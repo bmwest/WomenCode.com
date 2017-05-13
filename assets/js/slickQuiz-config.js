@@ -4,7 +4,7 @@
 
 var quizJSON = {
     "info": {
-        "name":    "!!",
+        "name":    "Tech Career Quiz",
         "main":    "<p>Confused about which tech career path to pursue? Find out which might be a good fit with this quiz!</p>",
         "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
         "level1":  "Front End Developer",
@@ -48,8 +48,7 @@ var quizJSON = {
             "incorrect": "<p><span>No.</span> You can't buy a car at the zoo or in a grocery store, try Ebay or a used car lot instead.</p>" // no comma here
         },
         { // Question 4
-            "q": "If you know it, tell us your Myers Brigg. Myers Brigg is just one way of describing personality, but we think it’s a fun way! Don’t forget, your Myers Brigg can change over the course of your life based on experiences. Neuroplasticity! You can take the test at 16 personalities: https://www.16personalities.com/personality-types
-",
+            "q": "If you know it, tell us your Myers Brigg. Myers Brigg is just one way of describing personality, but we think it’s a fun way! Don’t forget, your Myers Brigg can change over the course of your life based on experiences. Neuroplasticity! You can take the test at 16 personalities: https://www.16personalities.com/personality-types",
             "a": [
                 {"option": "INTJ, INFP, ENFP",    "correct": true},
                 {"option": "ENTP, INFJ, ISTJ, ISTP",     "correct": true},
@@ -115,6 +114,6 @@ var quizJSON = {
             ],
             "correct": "<p><span>Wonderful!</span></p>",
             "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
-        } // 
+        } //
     ]
 };
