@@ -179,6 +179,15 @@ p {
 	-moz-background-size: cover;
 	background-size: cover;
 	padding: 60px 0;
+	height: calc(100vh - 240px);
+    	display: flex;
+    	flex-flow: column nowrap;
+}
+
+.take-quiz h2 {
+	font-size: 2em;
+	text-shadow: 3px 3px 17px rgba(20, 20, 20, 1);
+    	line-height: 1.4;
 }
 	
 .path-tile, .glossary-tile, .resource-tile {
