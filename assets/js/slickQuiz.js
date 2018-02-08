@@ -17,7 +17,7 @@
             _element = '#' + $element.attr('id'),
 
             defaults = {
-                checkAnswerText:  'Check My Answer!',
+                checkAnswerText:  'Submit!',
                 nextQuestionText: 'Next &raquo;',
                 backButtonText: '',
                 completeQuizText: '',
@@ -35,7 +35,7 @@
                 disableScore: false,
                 disableRanking: false,
                 scoreAsPercentage: false,
-                perQuestionResponseMessaging: true,
+                perQuestionResponseMessaging: false,
                 perQuestionResponseAnswers: false,
                 completionResponseMessaging: false,
                 displayQuestionCount: true,   // Deprecate?
@@ -208,6 +208,8 @@
                     .replace('%name', quizValues.info.name) ).fadeIn(1000, kN(key,1));
                 $quizHeader.hide().prepend($('<div class="quizDescription">' + quizValues.info.main + '</div>')).fadeIn(1000, kN(key,2));
                 $quizResultsCopy.append(quizValues.info.results);
+
+
 
                 // add retry button to results view, if enabled
                 if (plugin.config.tryAgainText && plugin.config.tryAgainText !== '') {
@@ -621,6 +623,8 @@
 
                     $(_quizLevel + ' span').html(levelText);
                     $(_quizLevel).addClass('level' + levelRank);
+
+					$("div.level" + levelRank).show();
                 }
 
                 $quizArea.fadeOut(300, function() {
