@@ -50,18 +50,6 @@
 /* *********************************
            Big Logo
   ********************************** */
-.circle-logo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  font-size: 30px;
-  color: #f780f7;
-  line-height: 200px;
-  text-align: center;
-  background: #000;
-  margin-bottom: 20px;
-}
-
 .big-logo-row {
   background-color: #fff;
 }
@@ -75,45 +63,14 @@
 	margin: 0 auto;
 }
 
-.big-logo-row h1 {
-  font-size: 4em;
-  margin: 0;
-  padding: 0 0 15px 0;
-}
-@media (min-width: 400px) {
-  .big-logo-row h1 {
-    font-size: 4.5em;
-  }
-}
-@media (min-width: 440px) {
-  .big-logo-row h1 {
-    font-size: 5.5em;
-  }
-}
-@media (min-width: 500px) {
-  .big-logo-row h1 {
-    font-size: 6.5em;
-  }
-}
-@media (min-width: 630px) {
-  .big-logo-row h1 {
-    font-size: 7.5em;
-  }
-}
-@media (min-width: 768px) {
-  .big-logo-row h1 {
-    font-size: 9em;
-    padding-bottom: 30px;
-  }
-}
-@media (min-width: 1200px) {
-  .big-logo-row h1 {
-    font-size: 12em;
-  }
-}
 /* *********************************
            Site Basics
   ********************************** */
+
+body {
+  line-height: 1.4;
+}
+
 section {
 	margin: 20px 0;
 }
@@ -121,6 +78,8 @@ section {
 h1, h2 {
 	font-family: 'Lora', serif;
 	font-weight: bold;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 h1 {
@@ -129,7 +88,6 @@ h1 {
 
 h2 {
 	font-size: 1.5em;
-	color: #EAEBED;
 }
 
 p {
@@ -138,17 +96,21 @@ p {
 }
 
 .btn {
-    	width: 50%;
+  width: 50%;
 	font-size: 1.5em;
 	text-transform: uppercase;
 }
 
-
-
+@media (min-width: 768px) {
+  .btn {
+    width: 25%; 
+  } 
+}
 
 /* *********************************
            Nav Bar
   ********************************** */
+
 .navbar-inverse {
 	background-color: #202021;
 	border-color: #202021;
@@ -160,18 +122,15 @@ p {
 }
 
 @media (min-width: 768px) {
-.navbar {
-    border-radius: 0;
-}
-
-.btn {
-	width: 25%;	
-	}	
+  .navbar {
+      border-radius: 0;
+  }
 }
 	
 /* *********************************
             Body
   ********************************** */
+
 .take-quiz {
 	background: url("../img/quiztaker.jpg") center center; 
 	-webkit-background-size: cover;
@@ -180,17 +139,17 @@ p {
 	background-size: cover;
 	padding: 60px 0;
 	height: calc(100vh - 240px);
-    	display: flex;
-    	flex-flow: column nowrap;
+  display: flex;
+  flex-flow: column nowrap;
 }
 
 .take-quiz h2 {
 	font-size: 2em;
 	text-shadow: 3px 3px 17px rgba(20, 20, 20, 1);
-    	line-height: 1.4;
+  color: #EAEBED;
 }
 	
-.path-tile, .glossary-tile, .resource-tile {
+.tile {
 	text-align: center;
 	font-size: 2em;
 	font-family: 'Lora', serif;
@@ -199,7 +158,7 @@ p {
 	margin-bottom: 20px;
 }
 
-.path-tile a, .glossary-tile a, .resource-tile a {
+.tile a {
 	color: #202021;
 }
 
