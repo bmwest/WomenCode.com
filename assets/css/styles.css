@@ -3,7 +3,7 @@
   ********************************** */
 /* *********************************
    Some Style Overrides on Bootstrap
-  ********************************** 
+  **********************************
 .navbar-inverse {
   background-color: #fff;
   border-bottom: none;
@@ -103,8 +103,8 @@ p {
 
 @media (min-width: 768px) {
   .btn {
-    width: 25%; 
-  } 
+    width: 25%;
+  }
 }
 
 /* *********************************
@@ -118,7 +118,7 @@ p {
 	font-family: 'Lora', serif;
 	letter-spacing: 1px;
 	margin-bottom: 0;
-	
+
 }
 
 @media (min-width: 768px) {
@@ -126,13 +126,13 @@ p {
       border-radius: 0;
   }
 }
-	
+
 /* *********************************
             Body
   ********************************** */
 
 .take-quiz {
-	background: url("../img/quiztaker.jpg") center center; 
+	background: url("../img/quiztaker.jpg") center center;
 	-webkit-background-size: cover;
 	-o-background-size: cover;
 	-moz-background-size: cover;
@@ -148,7 +148,7 @@ p {
 	text-shadow: 3px 3px 17px rgba(20, 20, 20, 1);
   color: #EAEBED;
 }
-	
+
 .tile {
 	text-align: center;
 	font-size: 2em;
@@ -170,7 +170,15 @@ p {
 	background: #dbdbdb;
 }
 
+.glossary-list {
+  list-style: none;
+}
+
+li.keyword {
+  font-weight: bold;
+  margin: 15px 0 0 0;
+}
+
 .resource-tile {
 	background: #07b1c8;
 }
-
